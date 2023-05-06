@@ -9,6 +9,6 @@ describe('homepage',function() {
         await loginPageTest.clickCustomerLoginButton()
        await loginPageTest.clickHomePageButton()
         await loginPageTest.clickBankMangerLoginButton()
-        await browser.pause(7000)
+        await browser.pause(10000)
     })
 }) 
