@@ -10,7 +10,7 @@ describe('customer',function(){
         await customerTest.selectValueInYourNameDropDown("Hermoine Granger")
         console.log("-----2----")
         await customerTest.clickLoginButton()
-        await browser.pause(10000)
+        await browser.pause(5000)
 
 
 
