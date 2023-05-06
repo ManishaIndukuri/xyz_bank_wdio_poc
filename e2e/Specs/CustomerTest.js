@@ -7,10 +7,12 @@ describe('customer',function(){
         await customerTest.clickCustomerLoginButton()
         await customerTest.clickUserSelectText()
         console.log("-----1-----")
+        console.log(" latest code")
         await customerTest.selectValueInYourNameDropDown("Hermoine Granger")
         console.log("-----2----")
         await customerTest.clickLoginButton()
         await browser.pause(5000)
+        console.log(" latest code ")
 
 
 
