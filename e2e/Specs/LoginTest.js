@@ -10,5 +10,6 @@ describe('homepage',function() {
        await loginPageTest.clickHomePageButton()
         await loginPageTest.clickBankMangerLoginButton()
         await browser.pause(5000)
+        console.log("-----pull request--- to main branch")
     })
 }) 
